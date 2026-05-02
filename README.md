@@ -68,12 +68,17 @@ The addon is already included in LocalBarReplay. Just:
 
 > **Alternatively**, if you want to use the latest version from this repo, copy `maven_prop_firm.js` into the `addons/` folder of your LocalBarReplay clone — it auto-detects.
 
-### Step 3 — Load Your Data & Start
+### Step 3 — Load Data & Start
 
-1. Load a CSV of historical price data via the **Load Data** button
-2. Pick your **Maven plan** and **account size** from the HUD
-3. Click **Start Challenge**
-4. Press **▶ Play** (or Space) and start trading
+LocalBarReplay can fetch live chart data **automatically** — no CSV needed:
+
+1. Select a **symbol** (e.g. BTCUSDT) and **timeframe** from the toolbar
+2. Click **Load** — it fetches historical data directly from Binance
+3. Pick your **Maven plan** and **account size** from the Challenge HUD
+4. Click **Start Challenge**
+5. Press **▶ Play** (or Space) and start trading
+
+> **Prefer your own data?** You can also click **Load CSV** to upload any OHLCV file if you want to replay a specific historical period.
 
 ---
 
@@ -98,7 +103,7 @@ When you hit the profit target with enough profitable days, the HUD automaticall
 
 ## 📋 Account Sizes Available
 
-$5,000 · $10,000 · $25,000 · $50,000 · $100,000 · $200,000
+$2,000 · $5,000 · $10,000 · $25,000 · $50,000 · $100,000 · $200,000
 
 ---
 
